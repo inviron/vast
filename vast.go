@@ -142,6 +142,7 @@ type Wrapper struct {
 	FallbackOnNoAd           *bool `xml:"fallbackOnNoAd,attr,omitempty" json:",omitempty"`
 	AllowMultipleAds         *bool `xml:"allowMultipleAds,attr,omitempty" json:",omitempty"`
 	FollowAdditionalWrappers *bool `xml:"followAdditionalWrappers,attr,omitempty" json:",omitempty"`
+	Pricing *Pricing `xml:",omitempty" json:",omitempty"`
 }
 
 // AdSystem contains information about the system that returned the ad
