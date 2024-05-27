@@ -159,6 +159,7 @@ type Creative struct {
 	Sequence int `xml:"sequence,attr,omitempty" json:",omitempty"`
 	// Identifies the ad with which the creative is served
 	AdID string `xml:"adId,attr,omitempty" json:",omitempty"`
+	AdID2 string `xml:"AdID,attr,omitempty" json:",omitempty"`
 	// The technology used for any included API
 	APIFramework string `xml:"apiFramework,attr,omitempty" json:",omitempty"`
 	// If present, provides a VAST 4.x universal ad id
